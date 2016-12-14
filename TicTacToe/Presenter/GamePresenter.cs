@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+using System.Drawing;
 using System.Windows.Forms;
 using TicTacToe.Model;
 
@@ -8,6 +8,7 @@ namespace TicTacToe.Presenter
     {
         private readonly ITicTacToeForm view;
         private readonly IGridModel model;
+        
         public GamePresenter(ITicTacToeForm view, IGridModel model)
         {
             this.view = view;
