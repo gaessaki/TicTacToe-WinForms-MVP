@@ -91,7 +91,7 @@ namespace TicTacToe
         /// <param name="e"></param>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Created by Mansib Rahman on 12/13/2016.\n\nLicensed under the MIT License. License text available under License.md.", "About");
+            MessageBox.Show("Created by Mansib Rahman on 12/13/2016.\n\nLicensed under the MIT License. License text available under LICENSE.", "About");
         }
 
         /// <summary>
