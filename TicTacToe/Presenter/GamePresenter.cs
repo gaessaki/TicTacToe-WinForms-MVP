@@ -30,6 +30,8 @@ namespace TicTacToe.Presenter
                 int col = gridPanel.GetColumn(b);
 
                 b.Text = model.GetPiece(row, col) + "";
+                b.ForeColor = SystemColors.ControlText;
+                b.BackColor = SystemColors.Window;
                 b.UseVisualStyleBackColor = true;
             }
             gridPanel.Enabled = true;
