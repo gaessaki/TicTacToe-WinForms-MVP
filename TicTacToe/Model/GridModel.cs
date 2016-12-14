@@ -8,7 +8,8 @@
         /// <summary>
         /// Gets and sets the boolean indicating whether it's the first players turn.
         /// </summary>
-        public bool PlayerOneTurn {
+        public bool PlayerOneTurn 
+        {
             get { return playerOneTurn; }
             set { playerOneTurn = value; }
         }
